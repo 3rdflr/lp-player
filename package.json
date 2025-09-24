@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prepare": "husky"
+    "lint": "next lint",
+    "prepare": "husky",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
